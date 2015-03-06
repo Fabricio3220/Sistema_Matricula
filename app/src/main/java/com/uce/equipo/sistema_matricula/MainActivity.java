@@ -2,8 +2,12 @@ package com.uce.equipo.sistema_matricula;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.provider.Contacts;
+import android.provider.Telephony;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
 
 public class MainActivity extends Activity {
@@ -13,6 +17,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
 
 
     @Override
